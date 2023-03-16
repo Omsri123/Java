@@ -26,12 +26,12 @@ class main{
                 com.compare( a , b );
                 break;
             case 2:
-                char a,b ;
+                char g,h ;
                 System.out.println("Enter a");
-                a= obj.next()
+                g= obj.nextLine();
                 System.out.println("Enter b");
-                b = obj.next();
-                com.compare( a , b );
+                h = obj.nextLine();
+                com.compare( g , h );
                 break;
         
             default:
